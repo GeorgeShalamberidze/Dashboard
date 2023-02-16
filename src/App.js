@@ -36,14 +36,14 @@ const App = () => {
             <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full'>
               <Navbar />
             </div>
-          </div>
 
-          <div style={{backgroundColor: "red"}}>
-            <Routes>
-              {routeMap.map((route, id) => (
-                <Route key={id} path={route.path} element={route.element} />
-              ))}
-            </Routes>
+            <div>
+              <Routes>
+                {routeMap.map((route, id) => (
+                  <Route key={id} path={route.path} element={route.element} />
+                ))}
+              </Routes>
+            </div>
           </div>
         </div>
       </BrowserRouter>

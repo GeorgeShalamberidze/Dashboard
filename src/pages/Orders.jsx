@@ -9,7 +9,6 @@ const Orders = () => {
       <Header category="Page" title="Orders" />
       <GridComponent>
         <ColumnsDirective>
-          {ordersData.map((item, index))}
         </ColumnsDirective>
       </GridComponent>
     </div>

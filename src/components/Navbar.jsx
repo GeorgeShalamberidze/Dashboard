@@ -21,9 +21,8 @@ const NavButton = ({ title, customFunc, icon, color, datColor }) => (
       <span 
         style={{ background: datColor }} 
         className="absolute inline-flex rounded-full h-2 w-2 right-2 top-2"
-      >
+      />
         {icon}
-      </span>
     </button>
   </TooltipComponent>
 )
